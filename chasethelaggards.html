@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8" />
+        <title>Chase the Laggards</title>
+        <meta name="description" content="change management game"/>
+
+        <link href="css/main.css" rel="stylesheet" type="text/css" />
+
+        <!-- Carl - favicon code -->
+        <link rel="shortcut icon" href="http://carldgosselin.com/wp-content/themes/chip-life/images/CDGfavicon2.ico" type="image/x-icon" />
+
+        <!--[if lt IE 9]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+
+        <!-- Google Analytics -->
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-38826389-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+
+        <!-- Social Media Code from shareThis -->
+        <script type="text/javascript">var switchTo5x=true;</script>
+        <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+        <script type="text/javascript">stLight.options({publisher: "41cbe3a4-126c-4bcc-bd93-3c2d0b71bdc3", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+
+    </head>
+    <body background="images/stitched3.jpg">
+
+        <div id="spacer">
+        <div id="socialMedia">
+            <span class='st_linkedin_hcount' displayText='LinkedIn'></span>
+            <span class='st_twitter_hcount' displayText='Tweet'></span>
+            <span class='st_facebook_hcount' displayText='Facebook'></span>
+            <span class='st_sharethis_hcount' displayText='ShareThis'></span>
+            <span class='st_email_hcount' displayText='Email'></span>
+            <span class='st_stumbleupon_hcount' displayText='Stumble'></span>
+            <!-- <span class='st_pinterest_hcount' displayText='Pinterest'></span> -->
+        </div>
+        </div>
+
+        <div id="divGroup">
+            <div id="carrot-sprite" onclick="changeToCarrot()"></div>
+            <div id="or">&nbsp;&nbsp;&nbsp;</div>
+            <div id="stick-sprite" onclick="changeToStick()"></div>
+            <div id="bannerChaseTheLaggards"></div>
+        </div>
+        
+        <div class="container">
+            <canvas id="scene" width="800" height="400"></canvas>
+        </div>
+        <div class="container2">
+            <div id="reloadPage" onclick="reloadCanvas()"> </div> 
+            <div id="timer"></div>
+        </div>
+
+        <div id="divGroup2">
+            <div id="homeButton" onclick="backToCarldgosselin()">
+            </div>
+            <div id="scoreKeeping">
+                <img id="scoreKeeping1" src="images/YES.png" />
+                <img id="scoreKeeping2" src="images/YESGray2.png" />
+                <img id="scoreKeeping3" src="images/YESGray2.png" />
+                <img id="scoreKeeping4" src="images/YESGray2.png" />
+            </div>
+        </div>
+
+        <!-- Image for social media display such as Pinterest -->
+        <img src="images/chasethelaggardsPic.png" style="display:none" />
+    </body>
+</html>

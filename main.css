@@ -1,0 +1,205 @@
+/* general styles */
+*{
+    margin:0;
+    padding:0;
+}
+
+body {}
+
+#spacer{
+    width:100%;
+    margin:10px 0px 10px 0px;
+}
+
+#socialMedia{
+    width:800px;
+    height:20px;
+    position: relative;
+    margin: auto;
+    /*background-image: url(../images/chooseToolv3.png);*/
+    /*border:1px solid #000000;*/
+}
+
+#divGroup{
+    width:800px;
+    height:100px;
+    position: relative;
+    margin: auto;
+    /*background-image: url(../images/chooseToolv3.png);*/
+    /*border:1px solid #000000;*/
+}
+
+#carrot-sprite {
+    background-image:url(../images/carrotSpriteGlossy.png);
+    background-repeat: no-repeat;
+    width:50px;
+    height:100px;
+    float: left;
+    margin: 5px 5px 5px 0px;
+    /* border:1px solid #000000;*/
+}
+
+#carrot-sprite:hover {
+    cursor:pointer;
+    background-position: -52px 0px;
+    /*background-image:url(../images/carrotSpriteGlossy.png);
+    background-repeat: no-repeat;
+    width:50px;
+    height:100px;
+    float: left;
+    margin: 5px 5px 5px 0px;*/
+    /*border:1px solid #000000;*/
+}
+
+#or {
+    float: left;
+    /*margin: 10px;*/
+    /*border:1px solid #000000;*/
+}
+
+#stick-sprite {
+    background-image:url(../images/stickSpriteGlossy.png);
+    background-repeat: no-repeat;
+    width:50px;
+    height:100px;
+    float: left;
+    margin: 5px 5px 5px 0px;
+    /*border:1px solid #000000;*/
+}
+
+#stick-sprite:hover {
+    cursor:pointer;
+    background-position:-52px 0px;
+    /*background-image:url(../images/stickSpriteGlossy.png);
+    background-repeat: no-repeat;
+    width:50px;
+    height:100px;
+    float: left;
+    margin: 5px 5px 5px 0px;*/
+    /*border:1px solid #000000;*/
+}
+
+#bannerChaseTheLaggards {
+    background-image:url(../images/bannerChaseTheLaggardsv7.png);
+    background-repeat: no-repeat;
+    width:650px;
+    height:100px;
+    float: right;
+    margin: 5px 0px 5px 0px;
+    /*border:1px solid #000000;*/
+}
+
+.container {
+    width:100%;
+}
+
+.container > * {
+    display:block;
+    /* margin:50px auto;*/
+    margin:auto;
+}
+
+.container2 {
+    width:100%;
+    margin: 5px 0px 0px 0px;
+}
+
+h3 {
+    text-align:center;
+}
+
+#scene {
+    clear: both;    
+    position:relative;
+    cursor: none;
+}
+
+#reloadPage {
+    background-image:url(../images/playAgainSprite8.png);
+    background-repeat: no-repeat;
+    width:800px;
+    height: 50px;
+    text-align:center;
+    font-weight: bold;
+    display:none;
+    margin: auto;
+    /* border:1px solid #000000; */
+}
+
+#reloadPage:hover {
+    cursor:pointer;
+    background-position:0px -52px;
+    /*background-image:url(../images/playAgainSprite8.png);
+    background-repeat: no-repeat;
+    width:800px;
+    height: 50px;
+    text-align:center;
+    font-weight: bold;
+    display:none;
+    margin: auto;*/
+    /* border:1px solid #000000; */
+}
+
+#timer {
+    width:800px;
+    text-align:center;
+    font-weight: bold;
+    display:block;
+    margin:auto;
+    /* border:1px solid #000000; */
+}
+
+#divGroup2{
+    width:800px;
+    height:100px;
+    position: relative;
+    margin: auto;
+    /*border:1px solid #000000;*/
+}
+
+#homeButton{
+    background-image:url(../images/backToCarldgosselinv2.png);
+    background-repeat: no-repeat;
+    width:300px;
+    height:60px;
+    float: left;
+    margin: 5px 5px 5px 0px;
+    /*border:1px solid #000000;*/
+}
+
+#homeButton:hover{
+    cursor:pointer;
+    /*background-image:url(../images/backToCarldgosselinv2.png);
+    background-repeat: no-repeat;
+    width:300px;
+    height:60px;
+    float: left;
+    margin: 5px 5px 5px 0px;*/
+    /*border:1px solid #000000;*/
+}
+
+#scoreKeeping {
+    text-align: right;
+    /*width: 800px;*/
+    height: 70px;
+    float: right;
+    margin: 5px 5px 5px 0px;
+    margin: auto;
+    /*border:1px solid #000000;*/
+}
+
+#showCursorPosition {
+
+}
+
+#showDragonPosition {
+
+}
+
+#showForceField {
+
+}
+
+#showChangeTool {
+
+}
