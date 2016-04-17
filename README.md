@@ -2,6 +2,8 @@
 Experimentation with a game created in HTML5.  Simple game with an Organizational Change Management theme.
 Game can be played at:  http://www.carldgosselin.com/chasethelaggards
 
+![Chase the Laggards](https://github.com/carldgosselin/carrot_vs_stick/blob/master/images/bannerChaseTheLaggardsv7.png)
+
 ## Purpose
 I wanted to create a game using HTML5.  The initial code base is from a site called script-tutorials (www.script-tutorials.com/html5-game-development-lesson-4/).  
 
